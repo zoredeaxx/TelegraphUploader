@@ -50,7 +50,7 @@ async def check_user(id):
 @BotzHub.on(events.NewMessage(incoming=True, pattern="/start", func=lambda e: e.is_private))
 async def start(event):
     #ok = await BotzHub(GetFullUserRequest(event.sender_id))
-    await event.reply(f"Hello {ok.user.first_name}!\nI am a telegraph uploader bot.",
+    await event.reply(f"Hello!\nI am a telegraph uploader bot.",
                      buttons=[
                          Button.inline("Help", data="help"),
                          Button.url("Dev", url="https://t.me/BotzHub")
