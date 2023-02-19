@@ -1,4 +1,4 @@
 Pillow
 python-decouple
 telethon
-telegraph
+git+https://github.com/xditya/telegraph
