@@ -1,4 +1,4 @@
 Pillow
 python-decouple
-telethon
-telegraph
+telethon==1.24.0
+telegraph==2.0.0
